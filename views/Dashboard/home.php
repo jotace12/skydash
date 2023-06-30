@@ -7,27 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Skydash Admin</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="public/vendors/feather/feather.css">
-  <link rel="stylesheet" href="public/vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="public/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../public/vendors/feather/feather.css">
+  <link rel="stylesheet" href="../../public/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="../../public/vendors/css/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
+  <link rel="stylesheet" href="../../public/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="../../public/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" type="text/css" href="../../public/js/select.dataTables.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="public/css/vertical-layout-light/style.css">
+  <link rel="stylesheet" href="../../public/css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="public/images/favicon.png" />
+  <link rel="shortcut icon" href="../../public/images/favicon.png" />
 </head>
 <body>
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="public/images/logo.svg" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="public/images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="../../public/images/logo.svg" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../../public/images/logo-mini.svg" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -96,7 +96,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="public/images/faces/face28.jpg" alt="profile"/>
+              <img src="../../public/images/faces/face28.jpg" alt="profile"/>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
@@ -236,7 +236,7 @@
             </div>
             <ul class="chat-list">
               <li class="list active">
-                <div class="profile"><img src="public/images/faces/face1.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="../../public/images/faces/face1.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Thomas Douglas</p>
                   <p>Available</p>
@@ -244,7 +244,7 @@
                 <small class="text-muted my-auto">19 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="public/images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
+                <div class="profile"><img src="../../public/images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
                 <div class="info">
                   <div class="wrapper d-flex">
                     <p>Catherine</p>
@@ -255,7 +255,7 @@
                 <small class="text-muted my-auto">23 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="public/images/faces/face3.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="../../public/images/faces/face3.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Daniel Russell</p>
                   <p>Available</p>
@@ -263,7 +263,7 @@
                 <small class="text-muted my-auto">14 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="public/images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
+                <div class="profile"><img src="../../public/images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
                 <div class="info">
                   <p>James Richardson</p>
                   <p>Away</p>
@@ -271,7 +271,7 @@
                 <small class="text-muted my-auto">2 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="public/images/faces/face5.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="../../public/images/faces/face5.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Madeline Kennedy</p>
                   <p>Available</p>
@@ -279,7 +279,7 @@
                 <small class="text-muted my-auto">5 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="public/images/faces/face6.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="../../public/images/faces/face6.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Sarah Graves</p>
                   <p>Available</p>
@@ -296,57 +296,20 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="home.php">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
+         
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="public/pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="public/pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="public/pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
-              <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Form elements</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="public/pages/forms/basic_elements.html">Basic Elements</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-              <i class="icon-bar-graph menu-icon"></i>
-              <span class="menu-title">Charts</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="charts">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="public/pages/charts/chartjs.html">ChartJs</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="col-xl-3 col-md-6 mb-4" href="views/usuarios/usuarios.php">
+            <a class="col-xl-3 col-md-6 mb-4" href="../../views/guias/guia.php">
               <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Usuarios</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"> <?php echo $data['usuarios']; ?></div>
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Guias</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $data['guias']; ?></div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-user fa-2x text-gray-300"></i>
@@ -357,47 +320,71 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-              <i class="icon-contract menu-icon"></i>
-              <span class="menu-title">Icons</span>
-              <i class="menu-arrow"></i>
+            <a class="col-xl-3 col-md-6 mb-4" href="../../views/usuarios/usuarios.php">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Usuarios</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $data['usuarios']; ?></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-user fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
-            <div class="collapse" id="icons">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="public/pages/icons/mdi.html">Mdi icons</a></li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="icon-head menu-icon"></i>
-              <span class="menu-title">User Pages</span>
-              <i class="menu-arrow"></i>
+            <a class="col-xl-3 col-md-6 mb-4" href="../../views/usuarios/usuarios.php">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Viajes</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $data['usuarios']; ?></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-user fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="public/pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="public/pages/samples/register.html"> Register </a></li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#error" aria-expanded="false" aria-controls="error">
-              <i class="icon-ban menu-icon"></i>
-              <span class="menu-title">Error pages</span>
-              <i class="menu-arrow"></i>
+            <a class="col-xl-3 col-md-6 mb-4" href="../../views/usuarios/usuarios.php">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Destinos</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $data['usuarios']; ?></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-user fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
-            <div class="collapse" id="error">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="public/pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="public/pages/samples/error-500.html"> 500 </a></li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="public/pages/documentation/documentation.html">
-              <i class="icon-paper menu-icon"></i>
-              <span class="menu-title">Documentation</span>
+            <a class="col-xl-3 col-md-6 mb-4" href="../../views/usuarios/usuarios.php">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Turistas</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $data['usuarios']; ?></div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-user fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
           </li>
         </ul>
@@ -434,7 +421,7 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                  <img src="public/images/dashboard/people.svg" alt="people">
+                  <img src="../../public/images/dashboard/people.svg" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -966,7 +953,7 @@
                   <ul class="icon-data-list">
                     <li>
                       <div class="d-flex">
-                        <img src="public/images/faces/face1.jpg" alt="user">
+                        <img src="../../public/images/faces/face1.jpg" alt="user">
                         <div>
                           <p class="text-info mb-1">Isabella Becker</p>
                           <p class="mb-0">Sales dashboard have been created</p>
@@ -976,7 +963,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                        <img src="public/images/faces/face2.jpg" alt="user">
+                        <img src="../../public/images/faces/face2.jpg" alt="user">
                         <div>
                           <p class="text-info mb-1">Adam Warren</p>
                           <p class="mb-0">You have done a great job #TW111</p>
@@ -986,7 +973,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                      <img src="public/images/faces/face3.jpg" alt="user">
+                      <img src="../../public/images/faces/face3.jpg" alt="user">
                      <div>
                       <p class="text-info mb-1">Leonard Thornton</p>
                       <p class="mb-0">Sales dashboard have been created</p>
@@ -996,7 +983,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                        <img src="public/images/faces/face4.jpg" alt="user">
+                        <img src="../../public/images/faces/face4.jpg" alt="user">
                         <div>
                           <p class="text-info mb-1">George Morrison</p>
                           <p class="mb-0">Sales dashboard have been created</p>
@@ -1006,7 +993,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                        <img src="public/images/faces/face5.jpg" alt="user">
+                        <img src="../../public/images/faces/face5.jpg" alt="user">
                         <div>
                         <p class="text-info mb-1">Ryan Cortez</p>
                         <p class="mb-0">Herbs are fun and easy to grow.</p>
@@ -1071,25 +1058,25 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="public/vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../public/vendors/js/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
-  <script src="public/vendors/chart.js/Chart.min.js"></script>
-  <script src="public/vendors/datatables.net/jquery.dataTables.js"></script>
-  <script src="public/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
-  <script src="public/js/dataTables.select.min.js"></script>
+  <script src="../../public/vendors/chart.js/Chart.min.js"></script>
+  <script src="../../public/vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="../../public/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="../../public/js/dataTables.select.min.js"></script>
 
   <!-- End plugin js for this page -->
   <!-- inject:js -->
-  <script src="public/js/off-canvas.js"></script>
-  <script src="public/js/hoverable-collapse.js"></script>
-  <script src="public/js/template.js"></script>
-  <script src="public/js/settings.js"></script>
-  <script src="js/todolist.js"></script>
+  <script src="../../public/js/off-canvas.js"></script>
+  <script src="../../public/js/hoverable-collapse.js"></script>
+  <script src="../../public/js/template.js"></script>
+  <script src="../../public/js/settings.js"></script>
+  <script src="../../public/js/todolist.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="public/js/dashboard.js"></script>
-  <script src="public/js/Chart.roundedBarCharts.js"></script>
+  <script src="../../public/js/dashboard.js"></script>
+  <script src="../../public/js/Chart.roundedBarCharts.js"></script>
   <!-- End custom js for this page-->
 </body>
 
